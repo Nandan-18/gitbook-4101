@@ -4,9 +4,9 @@
 
 | Week | Topics | Readings |
 | :--- | :--- | :--- |
-| September 7 | 1.1, 1.2, 1.3 | Ch. 1, 2 |
-| September 14 | 1.3, 1.4, 1.5 | Ch. 1, 2 |
-| September 21 | 1.6 | Ch. 3.1 |
+| September 7 |  |  |
+| September 14 |  |  |
+| September 21 |  |  |
 | September 28 |  |  |
 | October 5 |  |  |
 | October 12 |  |  |
