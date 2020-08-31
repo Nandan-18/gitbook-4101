@@ -3,12 +3,6 @@
 * [Course Syllabus](README.md)
 * [Course Calendar](course-calendar.md)
 
-## Resources <a id="helpful-links"></a>
-
-* [Peer Tutoring](helpful-links/peer-tutoring.md)
-* [Java 11 Documentation](https://docs.oracle.com/en/java/javase/11/index.html)
-* [Course and Exam Description](https://apcentral.collegeboard.org/pdf/ap-computer-science-a-course-and-exam-description.pdf?course=ap-computer-science-a)
-
 ## An Introduction to Java
 
 * [Logical Puzzles](an-introduction-to-java/logical-puzzles.md)
@@ -61,9 +55,11 @@
 * [Abstract and Final Classes](inheritance-and-interfaces/abstract-and-final-classes.md)
 * [Contractual Interfaces](inheritance-and-interfaces/contractual-interfaces.md)
 
-## Tutorials
+## Beyond the Exam
 
-* [TBD](tutorials/tbd.md)
+* [Certification](beyond-the-exam/certification.md)
+* [Graphical Applications](beyond-the-exam/graphical-applications.md)
+* [Database Programming](beyond-the-exam/database-programming.md)
 
 ## Problem Sets
 
@@ -73,15 +69,22 @@
 * [Problem Set 3](problem-sets/problem-set-3.md)
 * [Problem Set 4](problem-sets/problem-set-4.md)
 
+## Tutorials
+
+* [TBD](tutorials/tbd.md)
+
 ## Projects
 
 * [TBD](projects/tbd.md)
 
-## Beyond the Exam
+## Resources <a id="helpful-links"></a>
 
-* [Certification](beyond-the-exam/certification.md)
-* [Graphical Applications](beyond-the-exam/graphical-applications.md)
-* [Database Programming](beyond-the-exam/database-programming.md)
+* [Peer Tutoring](helpful-links/peer-tutoring.md)
+* [AP Classroom](https://myap.collegeboard.org/login)
+* [Canvas](https://canvas.instructure.com/)
+* [GitHub](https://github.com/ucvts)
+* [Java 11 Documentation](https://docs.oracle.com/en/java/javase/11/index.html)
+* [Course and Exam Description](https://apcentral.collegeboard.org/pdf/ap-computer-science-a-course-and-exam-description.pdf?course=ap-computer-science-a)
 
 ## Appendix <a id="helpful-resources"></a>
 
