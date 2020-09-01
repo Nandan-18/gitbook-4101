@@ -1,7 +1,6 @@
 # Table of contents
 
 * [Course Syllabus](README.md)
-* [Course Calendar](course-calendar.md)
 
 ## An Introduction to Java
 
