@@ -6,7 +6,7 @@ AP Computer Science A introduces students to computer science through programmin
 
 ## Topic Outline
 
-This course is comprised of seven units of instruction.
+This course consists of seven units of instruction.
 
 * An Introduction to Java
 * Language Fundamentals
