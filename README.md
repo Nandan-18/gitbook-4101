@@ -36,7 +36,7 @@ Make sure you purchase the 2020-2021 versions of these books.
 
 ## Grading Policy
 
-Marking period grades are comprised of tests, quizzes, and programming assignments.
+Marking period grades consist of tests, quizzes, and programming assignments.
 
 * Quizzes \(up to 25 points\)
 * Problem Sets \(up to 50 points\)
@@ -47,7 +47,7 @@ Tests and quizzes each assess skills presented during class, in the required rea
 
 ## Late Policy
 
-The world is full of deadlines, and you need to learn to prioritize and manage your time accordingly. There will be a 10% daily penalty levied against all late submissions. After the ninth day, submissions will not longer be accepted.
+The world is full of deadlines, and you need to learn to prioritize and manage your time accordingly. There will be a 10% daily penalty levied against all late submissions. After the ninth day, submissions will no longer be accepted.
 
 ## Attendance Policy
 
