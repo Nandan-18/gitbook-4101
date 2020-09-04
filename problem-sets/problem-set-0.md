@@ -8,11 +8,13 @@ We'll create our first IntelliJ project, initialize a Git repository, add and co
 
 1. Create a new IntelliJ project.
 2. Create a Java class file called `HelloJava.java`.
-3. Write a main method in HelloJava that prints `Hello, Java!` to the console.
-4. Initialize a Git repository in the parent folder that contains `HelloJava.java`.
-5. Add and commit your project files to version control.
-6. Create a remote repository on GitHub called `pset-0`.
-7. Push your project files to your remote repository.
+3. Write a `main` method in `HelloJava` that prints `Hello, Java!` to the console.
+4. Initialize a Git repository in the project folder.
+5. Create a `.gitignore` file in the root directory of your project.
+6. Add the `.idea` folder, the `out` folder, and any `.iml` files to the `.gitignore` file.
+7. Add and commit your `src` folder and `.gitignore` file to version control.
+8. Create a remote repository on GitHub called `pset-0`.
+9. Push your commit to your remote repository.
 
 ## Deliverables
 
