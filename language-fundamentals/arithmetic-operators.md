@@ -260,5 +260,5 @@ Go review the storage size and value ranges of the primitive data types if you'r
 
 Time for some practice!
 
-{% page-ref page="../problem-sets/problem-set-2.md" %}
+{% page-ref page="../problem-sets/problem-set-3.md" %}
 
