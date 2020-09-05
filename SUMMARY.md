@@ -85,6 +85,5 @@
 
 ## Appendix <a id="helpful-resources"></a>
 
-* [Style Guide](helpful-resources/style-guide.md)
 * [Reserved Words](helpful-resources/reserved-words.md)
 
