@@ -14,6 +14,14 @@ Solve each exercise so that your output matches the expected output. Each exerci
 
 The specifications for each exercise are outlined below. Your job is to write code that meets the stated requirements, and matches my output exactly. Work through these exercises on your own. Experiment, make mistakes, ask questions, and fix your mistakes. It's the only way to get good at programming.
 
+### Exercise 1
+
+Prompt the user to enter a whole number of miles. Convert this distance into feet and inches.
+
+
+
+
+
 ## Deliverables
 
 1. Submit your repository URL.
