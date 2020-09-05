@@ -91,7 +91,12 @@ Prompt the user for their annual salary, as well as the percentage of that salar
 
 ### Exercise 8
 
-TODO
+Prompt the use for the number of students and teachers attending a class trip, as well as the capacity of the buses being used. Report the number of buses required, as well as the number of passengers on the last bus.
+
+![](../.gitbook/assets/exercise8.png)
+
+* The use of `if` statements, ternary operators, `switch` statements, and loops is prohibited.
+* The use of the `Math` class is prohibited.
 
 ### Exercise 9
 
