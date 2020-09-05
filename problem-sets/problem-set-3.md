@@ -119,6 +119,8 @@ Prompt the user to enter a temperature in degrees Fahrenheit Convert that temper
 
 1. Submit your repository URL.
 
+Your program output should match mine exactly for each of the 10 exercises above.
+
 ## Deadline
 
 All submissions are due on Canvas by 11:59pm on Sunday, September 20, 2020.
