@@ -100,11 +100,20 @@ Prompt the use for the number of students and teachers attending a class trip, a
 
 ### Exercise 9
 
-TODO
+Prompt the user to enter a number of dollars. Convert this dollar amount into a number of quarters, dimes, nickels, and pennies. You should always maximize the larger denomination first.
+
+![](../.gitbook/assets/exercise9.png)
+
+* The use of `if` statements, ternary operators, `switch` statements, or loops is prohibited.
 
 ### Exercise 10
 
-TODO
+Prompt the user to enter a temperature in degrees Fahrenheit Convert that temperature to degrees Celsius, as well as degrees Kelvin.
+
+![](../.gitbook/assets/exercise10.png)
+
+* Always display exactly two decimal places \(rounding, if necessary\).
+* The use of `if` statements, ternary operators, `switch` statements, or loops is prohibited.
 
 ## Deliverables
 
