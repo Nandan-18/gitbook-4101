@@ -33,7 +33,6 @@
 
 * [Object-Oriented Programming](objects-and-classes/object-oriented-programming.md)
 * [Strings, Revisited](objects-and-classes/strings-revisited.md)
-* [Using the Math Class](objects-and-classes/using-the-math-class.md)
 * [Wrapper Classes](objects-and-classes/wrapper-classes.md)
 * [Writing Classes](objects-and-classes/writing-classes.md)
 * [Implementing Methods](objects-and-classes/implementing-methods.md)
