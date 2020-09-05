@@ -144,5 +144,3 @@ Remember way back in the [Strings](strings.md) section when I promised a short v
 
 So, I've thrown a whole lot of information at you. And hopefully you've absorbed most of it. Some of it? I guess we're going to find out!
 
-{% page-ref page="../problem-sets/problem-set-5.md" %}
-

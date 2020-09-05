@@ -259,5 +259,3 @@ Hopefully you're starting to pick up on the pattern. You're going to do a lot of
 
 {% page-ref page="../problem-sets/problem-set-3.md" %}
 
-{% page-ref page="../problem-sets/problem-set-4.md" %}
-
