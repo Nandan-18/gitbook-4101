@@ -30,6 +30,31 @@ IMG
 
 * The use of `if` statements, ternary operators, `switch` statements, and loops is prohibited.
 
+### Exercise 3
+
+Prompt the user to enter a whole number of kilometers. Convert this distance into meters and centimeters. You should always maximize the larger unit of distance first.
+
+IMG
+
+* The use of `if` statements, ternary operators, `switch` statements, and loops is prohibited.
+
+### Exercise 4
+
+Prompt the user to enter a whole number of centimeters. Convert this distance into a number of kilometers, meters, and remaining centimeters. You should always maximize the larger unit of distance first.
+
+IMG
+
+* The use of `if` statements, ternary operators, `switch` statements, and loops is prohibited.
+
+### Exercise 5
+
+Prompt the user to enter the diameter of a circle. Calculate the area and circumference.
+
+
+
+* Always display exactly
+* The use of if statements, ternary operators, switch statements, and loops is prohibited.
+
 ## Deliverables
 
 1. Submit your repository URL.
