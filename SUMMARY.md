@@ -57,8 +57,6 @@
 ## Beyond the Exam
 
 * [Certification](beyond-the-exam/certification.md)
-* [Graphical Applications](beyond-the-exam/graphical-applications.md)
-* [Database Programming](beyond-the-exam/database-programming.md)
 
 ## Problem Sets
 
