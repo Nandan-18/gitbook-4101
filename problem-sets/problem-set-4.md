@@ -16,11 +16,19 @@ The specifications for each exercise are outlined below. Your job is to write co
 
 ### Exercise 1
 
-Prompt the user to enter a whole number of miles. Convert this distance into feet and inches.
+Prompt the user to enter a whole number of miles. Convert this distance into feet and inches. You should always maximize the larger unit of distance first.
 
+IMG
 
+* The use of `if` statements, ternary operators, `switch` statements, and loops is prohibited.
 
+### Exercise 2
 
+Prompt the user to enter a whole number of inches. Convert this distance into a number of miles, feet, and remaining inches. You should always maximize the larger unit of distance first.
+
+IMG
+
+* The use of `if` statements, ternary operators, `switch` statements, and loops is prohibited.
 
 ## Deliverables
 
