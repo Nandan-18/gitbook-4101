@@ -8,7 +8,7 @@ We'll clone an existing repository, which will provided the exercise instruction
 
 1. Clone the `java-skeleton-pset-3` repository.
 2. Create a new repository called `pset-3`.
-3. Solve each of the five exercises \(self-contained in their own `.java` files\).
+3. Solve each of the 10 exercises \(self-contained in their own `.java` files\).
 4. Add, commit, and push the corrected code to the `pset-3` repository.
 
 ## Deliverables
