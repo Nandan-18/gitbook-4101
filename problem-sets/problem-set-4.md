@@ -6,9 +6,9 @@ Solve each exercise so that your output matches the expected output. Each exerci
 
 ## Requirements
 
-1. Create a new repository called `pset-4`.
-2. Solve each of the 10 exercises \(to be self-contained in their own `.java` files\).
-3. Add, commit, and push the corrected code to the `pset-4` repository.
+1. Create a new repository called `pset-3`.
+2. Solve each of the exercises, placing each solution in its own file.
+3. Add, commit, and push your code to the `pset-3` repository.
 
 ## Exercises
 
@@ -16,95 +16,210 @@ The specifications for each exercise are outlined below. Your job is to write co
 
 ### Exercise 1
 
-Prompt the user to enter a whole number of miles. Convert this distance into feet and inches. You should always maximize the larger unit of distance first.
+According the National Weather Service, wind chill is calculated by the following formula.
 
-IMG
+![](../.gitbook/assets/wind-chill.png)
 
-* The use of `if` statements, ternary operators, `switch` statements, and loops is prohibited.
+Prompt the user to enter a temperature \(in Fahrenheit\) and wind speed \(in MPH\).
+
+* `Temperature :` 
+* `Wind speed  :` 
+
+Calculate and print the wind chill.
+
+* Display exactly two decimal places.
+* Format the wind chill with separating commas, as needed.
+* The use of `if` statements, `switch` statements, ternary operators, and loops is prohibited.
+
+```text
+Temperature : 38
+Wind speed  : 14
+
+Wind chill  : 29.60
+```
 
 ### Exercise 2
 
-Prompt the user to enter a whole number of inches. Convert this distance into a number of miles, feet, and remaining inches. You should always maximize the larger unit of distance first.
+Prompt the user to enter a number of inches \(ignoring any fractional components\).
 
-IMG
+* `Inches :` 
 
-* The use of `if` statements, ternary operators, `switch` statements, and loops is prohibited.
+Calculate and print the equivalent number of miles, feet, and remaining inches.
+
+* Maximize larger units of distance.
+* The use of the `Math` class is prohibited.
+* The use of `if` statements, `switch` statements, ternary operators, and loops is prohibited.
+
+```text
+Inches : 63387
+
+Miles  : 1
+Feet   : 2
+Inches : 3
+```
 
 ### Exercise 3
 
-Prompt the user to enter a whole number of kilometers. Convert this distance into meters and centimeters. You should always maximize the larger unit of distance first.
+Prompt the user for the dimensions of a Cornhole board \(in inches\).
 
-IMG
+* `Length       :` 
+* `Width        :` 
+* `Diameter     :` 
 
-* The use of `if` statements, ternary operators, `switch` statements, and loops is prohibited.
+Calculate and print the surface area of the board \(in square inches\).
+
+* Display exactly two decimal places.
+* Format the surface area with separating commas, as needed.
+* The use of `if` statements, `switch` statements, ternary operators, and loops is prohibited.
+
+```text
+Length       : 48
+Width        : 24
+Diameter     : 6
+
+Surface area : 1,123.73
+```
 
 ### Exercise 4
 
-Prompt the user to enter a whole number of centimeters. Convert this distance into a number of kilometers, meters, and remaining centimeters. You should always maximize the larger unit of distance first.
+Prompt the user to enter a number of centimeters \(ignoring any fractional components\).
 
-IMG
+* `Centimeters :` 
 
-* The use of `if` statements, ternary operators, `switch` statements, and loops is prohibited.
+Calculate and print the equivalent number of kilometers, meters, and remaining centimeters.
+
+* Maximize larger units of distance.
+* The use of the `Math` class is prohibited.
+* The use of `if` statements, `switch` statements, ternary operators, and loops is prohibited.
+
+```text
+Centimeters : 100203
+
+Kilometers  : 1
+Meters      : 2
+Centimeters : 3
+```
 
 ### Exercise 5
 
-Prompt the user to enter the diameter of a circle. Calculate the area and circumference.
+Prompt the user to enter a diameter of a circle.
 
-IMG
+* `Diameter      :` 
 
-* Always display exactly two decimal places \(rounding, if necessary\).
-* Format the area and circumference with separating commas when applicable.
-* The use of `if` statements, ternary operators, `switch` statements, and loops is prohibited.
+Calculate the area and circumference of the circle.
+
+* Display exactly two decimal places.
+* Format the area and circumference with separating commas, as needed.
+* The use of `if` statements, `switch` statements, ternary operators, and loops is prohibited.
+
+```text
+Diameter      : 10
+
+Area          : 78.54
+Circumference : 31.42
+```
 
 ### Exercise 6
 
-Prompt the user for a length and a width. Calculate the area, perimeter, and diagonal of the corresponding rectangle.
+Prompt the user to enter a length and width of a rectangle.
 
-IMG
+* Length:
+* Width:
 
-* Always display exactly two decimal places \(rounding, if necessary\).
-* Format the area, perimeter, and diagonal with separating commas when applicable.
-* The use of `if` statements, ternary operators, `switch` statements, and loops is prohibited.
+Calculate and print the area, perimeter, and diagonal of the rectangle.
+
+* Display exactly two decimal places.
+* Format the area, perimeter, and diagonal with separating commas, as needed.
+* The use of `if` statements, `switch` statements, ternary operators, and loops is prohibited.
+
+```text
+Length    : 5
+Width     : 10
+
+Area      : 50.00
+Perimeter : 30.00
+Diagonal  : 11.18
+```
 
 ### Exercise 7
 
-Prompt the user to enter a side length. Calculate the area and perimeter of the corresponding hexagon.
+Prompt the user to enter a side length of a hexagon.
 
-IMG
+* `Side      :` 
 
-* Always display exactly two decimal places \(rounding, if necessary\).
-* Format the area and perimeter with separating commas when applicable.
-* The use of `if` statements, ternary operators, `switch` statements, and loops is prohibited.
+Calculate and print the area and perimeter of the corresponding hexagon.
+
+* Display exactly two decimal places.
+* Format the area and perimeter with separating commas, as needed.
+* The use of `if` statements, `switch` statements, ternary operators, and loops is prohibited.
+
+```text
+Side      : 5
+
+Area      : 64.95
+Perimeter : 30.00
+```
 
 ### Exercise 8
 
-Prompt the user to enter a sequence of text. Reverse the first and second halves of the `String`, making sure each letter is capitalized.
+Prompt the user to enter a sequence of text.
 
-IMG
+* `Text :` 
+
+Reverse the first and second halves of the `String`, making sure each letter is capitalized.
 
 * The use of `if` statements, ternary operators, `switch` statements, and loops is prohibited.
+
+```text
+Text : apcsa
+
+CSAAP.
+```
 
 ### Exercise 9
 
-Prompt the user to enter their first, middle, and last names. Print their initials in all capital letters.
+Prompt the user to enter their first, middle, and last names.
 
-IMG
+* `First name  :` 
+* `Middle name :` 
+* `Last name   :` 
+
+Print their initials in all capital letters.
 
 * The use of `if` statements, ternary operators, `switch` statements, and loops is prohibited.
+
+```text
+First name  : john
+Middle name : fitzgerald
+Last name   : kennedy
+
+JFK.
+```
 
 ### Exercise 10
 
-Prompt the user to enter their favorite city. Print the original `String`, its length, and the capital and lowercase equivalents of the `String`.
+Prompt the user to enter their favorite city.
 
-IMG
+* `What's your favorite city?` 
+
+Print the original `String`, its length, and the capital and lowercase equivalents of the `String`.
 
 * The use of `if` statements, ternary operators, `switch` statements, and loops is prohibited.
+
+```text
+What's your favorite city? Los Angeles
+
+Text   : Los Angeles
+Length : 11
+Lower  : LOS ANGELES
+Upper  : los angeles
+```
 
 ## Deliverables
 
 1. Submit your repository URL.
 
-Your program output should match mine exactly for each of the 10 exercises above.
+Your program output should match mine exactly for each of the exercises above.
 
 ## Deadline
 
