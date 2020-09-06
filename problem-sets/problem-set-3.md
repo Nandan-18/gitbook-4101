@@ -6,10 +6,9 @@ Solve each exercise so that your output matches the expected output. Each exerci
 
 ## Requirements
 
-1. Clone the `java-skeleton-pset-3` repository.
-2. Create a new repository called `pset-3`.
-3. Solve each of the 10 exercises \(to be self-contained in their own `.java` files\).
-4. Add, commit, and push the corrected code to the `pset-3` repository.
+1. Create a new repository called `pset-3`.
+2. Solve each of the exercises, placing each solution in its own file.
+3. Add, commit, and push your code to the `pset-3` repository.
 
 ## Exercises
 
@@ -19,107 +18,231 @@ The specifications for each exercise are outlined below. Your job is to write co
 
 Print a square of text to the console.
 
-![](../.gitbook/assets/exercise1.png)
-
-* Use a single `println` statement.
+* Use a single `print`, `printf`, or `println` statement.
 * The use of the `String` concatenation operator is prohibited.
+* The use of any `String` methods is prohibited.
+
+```text
+H E L L O
+E       A
+L       P
+L       C 
+O A P C S
+```
 
 ### Exercise 2
 
 Print a simple message to the console.
 
-![](../.gitbook/assets/exercise2.png)
-
-* Use a single `println` statement.
+* Use a single `print`, `printf`, or `println` statement.
 * The use of the `String` concatenation operator is prohibited.
+* The use of any `String` methods is prohibited.
+
+```text
+"The answer's quite simple," the professor said. "Just think outside the box!"
+```
 
 ### Exercise 3
 
-Prompt the user to enter the dimensions of a rectangle \(in inches\). Print the area of the rectangle in square millimeters.
+Prompt the user to enter the dimensions of a rectangle \(in inches\).
 
-![](../.gitbook/assets/exercise3.png)
+* `Height :` 
+* `Width  :` 
 
-* Always display exactly two decimal places \(rounding, if necessary\).
-* Format the square millimeters with separating commas when applicable.
-* The use of `if` statements, ternary operators, `switch` statements, and loops is prohibited.
+Calculate and print the area of the rectangle in square millimeters.
+
+* Display exactly two decimal places.
+* Format the area with separating commas, as needed.
+* The use of the `Math` class is prohibited.
+* The use of `if` statements, `switch` statements, ternary operators, and loops is prohibited.
+
+```text
+Height : 8.5
+Width  : 11
+
+60,322.46 square millimeters.
+```
 
 ### Exercise 4
 
-Prompt the user to enter the dimensions of a rectangle \(in inches\). Print the perimeter of the rectangle in centimeters.
+Prompt the user to enter the dimensions of a rectangle \(in inches\).
 
-![](../.gitbook/assets/exercise4.png)
+* `Height :` 
+* `Width  :` 
 
-* Always display exactly two decimal places \(rounding, if necessary\).
-* Format the centimeters with separating commas when applicable.
-* The use of `if` statements, ternary operators, `switch` statements, and loops is prohibited.
+Calculate and print the perimeter of the rectangle in centimeters.
+
+* Display exactly two decimal places.
+* Format the perimeter with separating commas, as needed.
+* The use of the `Math` class is prohibited.
+* The use of `if` statements, `switch` statements, ternary operators, and loops is prohibited.
+
+```text
+Height : 8.5
+Width  : 11
+
+99.06 centimeters.
+```
 
 ### Exercise 5
 
-A course grading policy defines the following assignment weights.
+A course grading policy defines the following assignment category weights.
 
 * Homework, 15%
 * Quizzes, 35%
 * Tests, 50%
 
-Prompt the user to enter three homework grades, two quiz grades, and one test grade \(all of which must be stored as integer values\). Calculate the user's marking period grade.
+Prompt the user to enter three homework grades, two quiz grades, and one test grade.
 
-![](../.gitbook/assets/exercise5.png)
+* `Homework 1 :` 
+* `Homework 2 :` 
+* `Homework 3 :` 
+* `Quiz 1     :` 
+* `Quiz 2     :` 
+* `Test 1     :` 
 
-* Always display exactly two decimal places \(rounding, if necessary\).
-* Format the grade with a percentage sign.
-* The use of `if` statements, ternary operators, `switch` statements, and loops is prohibited.
+Calculate and print the user's marking period grade.
+
+* Display exactly two decimal places.
+* Format the grade with a `%` sign.
+* The use of the `Math` class is prohibited.
+* The use of `if` statements, `switch` statements, ternary operators, and loops is prohibited.
+
+```text
+Homework 1 : 88
+Homework 2 : 84
+Homework 3 : 86
+Quiz 1     : 80
+Quiz 2     : 84
+Test 1     : 92
+
+87.60%.
+```
 
 ### Exercise 6
 
-Prompt the user for the number of hours per day worked at a local supermarket, as well as the hourly wage. Calculate the weekly gross pay.
+Prompt the user to enter their hourly wage, as well as the number of hours per day they worked.
 
-![](../.gitbook/assets/exercise6.png)
+* `Wage      :` 
+* `Monday    :` 
+* `Tuesday   :` 
+* `Wednesday :` 
+* `Thursday  :` 
+* `Friday    :` 
+* `Saturday  :` 
+* `Sunday    :` 
 
-* Always display exactly two decimal places \(rounding, if necessary\).
-* Format the gross pay with a dollar sign.
-* The use of `if` statements, ternary operators, `switch` statements, and loops is prohibited.
+ Calculate and print the user's weekly gross pay.
+
+* Display exactly two decimal places.
+* Format the gross pay with a `$` sign.
+* The use of the `Math` class is prohibited.
+* The use of `if` statements, `switch` statements, ternary operators, and loops is prohibited.
+
+```text
+Wage      : 15.25
+Monday    : 8
+Tuesday   : 8
+Wednesday : 8
+Thursday  : 10
+Friday    : 6
+Saturday  : 0
+Sunday    : 4
+
+$671.00.
+```
 
 ### Exercise 7
 
-Prompt the user for their annual salary, as well as the percentage of that salary that is paid into their retirement account \(pre-tax\), deducted for Federal taxes, and deducted for state taxes. Calculate the net pay for a single paycheck if the user is paid twice per month.
+Prompt the user to enter their annual salary, as well as the payroll deductions for their 401\(k\) contribution \(deducted pre-tax\), federal taxes, and state taxes, all of which should be in the form of a percentage.
 
-![](../.gitbook/assets/exercise7.png)
+* `Salary  :` 
+* `401(k)  :` 
+* `Federal :` 
+* `State   :` 
 
-* Always display exactly two decimal places \(rounding, if necessary\).
-* Format the net pay with a dollar sign.
-* The use of `if` statements, ternary operators, `switch` statements, and loops is prohibited.
+Calculate and print the net pay for a single paycheck if the user is paid twice per month.
+
+* Display exactly two decimal places.
+* Format the net pay with a `$` sign.
+* The use of `if` statements, `switch` statements, ternary operators, and loops is prohibited.
+
+```text
+Salary  : 112000
+401(k)  : 7
+Federal : 21.43
+State   : 6.37
+
+$3,133.48.
+```
 
 ### Exercise 8
 
-Prompt the use for the number of students and teachers attending a class trip, as well as the capacity of the buses being used. Report the number of buses required, as well as the number of passengers on the last bus.
+Prompt the user to enter the number of students and teachers attending a class trip, as well as the capacity of the buses being used.
 
-![](../.gitbook/assets/exercise8.png)
+* `Students :` 
+* `Teachers :` 
+* `Capacity :` 
 
-* The use of `if` statements, ternary operators, `switch` statements, and loops is prohibited.
+Calculate and print the number of buses required, as well as the number of passengers on the last bus.
+
 * The use of the `Math` class is prohibited.
+* The use of `if` statements, `switch` statements, ternary operators, and loops is prohibited.
+
+```text
+Students : 273
+Teachers : 28
+Capacity : 54
+
+Buses required      : 6
+Overflow passengers : 31
+```
 
 ### Exercise 9
 
-Prompt the user to enter a number of dollars. Convert this dollar amount into a number of quarters, dimes, nickels, and pennies. You should always maximize the larger denomination first.
+Prompt the user to enter a dollar amount.
 
-![](../.gitbook/assets/exercise9.png)
+* `Amount :` 
 
-* The use of `if` statements, ternary operators, `switch` statements, or loops is prohibited.
+Calculate and print the equivalent number of quarters, dimes, nickels, and pennies.
+
+* Maximize larger coin denominations.
+* The use of the `Math` class is prohibited.
+* The use of `if` statements, `switch` statements, ternary operators, and loops is prohibited.
+
+```text
+Amount   : 2.43
+
+Quarters : 9
+Dimes    : 1
+Nickels  : 1
+Pennies  : 3
+```
 
 ### Exercise 10
 
-Prompt the user to enter a temperature in degrees Fahrenheit Convert that temperature to degrees Celsius, as well as degrees Kelvin.
+Prompt the user to enter a temperature \(in Fahrenheit\).
 
-![](../.gitbook/assets/exercise10.png)
+* `Fahrenheit :` 
 
-* Always display exactly two decimal places \(rounding, if necessary\).
-* The use of `if` statements, ternary operators, `switch` statements, or loops is prohibited.
+Calculate and print the equivalent temperature in Celsius and Kelvin.
+
+* Display exactly two decimal places.
+* The use of the `Math` class is prohibited.
+* The use of `if` statements, `switch` statements, ternary operators, and loops is prohibited.
+
+```text
+Fahrenheit : 32.0
+
+Celsius    : 0.00
+Kelvin     : 273.15
+```
 
 ## Deliverables
 
 1. Submit your repository URL.
 
-Your program output should match mine exactly for each of the 10 exercises above.
+Your program output should match mine exactly for each of the exercises above.
 
 ## Deadline
 

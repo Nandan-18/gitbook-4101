@@ -50,10 +50,55 @@ IMG
 
 Prompt the user to enter the diameter of a circle. Calculate the area and circumference.
 
+IMG
 
+* Always display exactly two decimal places \(rounding, if necessary\).
+* Format the area and circumference with separating commas when applicable.
+* The use of `if` statements, ternary operators, `switch` statements, and loops is prohibited.
 
-* Always display exactly
-* The use of if statements, ternary operators, switch statements, and loops is prohibited.
+### Exercise 6
+
+Prompt the user for a length and a width. Calculate the area, perimeter, and diagonal of the corresponding rectangle.
+
+IMG
+
+* Always display exactly two decimal places \(rounding, if necessary\).
+* Format the area, perimeter, and diagonal with separating commas when applicable.
+* The use of `if` statements, ternary operators, `switch` statements, and loops is prohibited.
+
+### Exercise 7
+
+Prompt the user to enter a side length. Calculate the area and perimeter of the corresponding hexagon.
+
+IMG
+
+* Always display exactly two decimal places \(rounding, if necessary\).
+* Format the area and perimeter with separating commas when applicable.
+* The use of `if` statements, ternary operators, `switch` statements, and loops is prohibited.
+
+### Exercise 8
+
+Prompt the user to enter a sequence of text. Reverse the first and second halves of the `String`, making sure each letter is capitalized.
+
+IMG
+
+* The use of `if` statements, ternary operators, `switch` statements, and loops is prohibited.
+
+### Exercise 9
+
+Prompt the user to enter their first, middle, and last names. Print their initials in all capital letters.
+
+IMG
+
+* The use of `if` statements, ternary operators, `switch` statements, and loops is prohibited.
+
+### Exercise 10
+
+Prompt the user to enter their favorite city. Print the original `String`, its length, and the capital and lowercase equivalents of the `String`.
+
+IMG
+
+* The use of `if` statements, ternary operators, `switch` statements, and loops is prohibited.
 
 ## Deliverables
 
