@@ -21,8 +21,9 @@ To verify the success of your installation, open the Command Prompt and enter th
 
 ```text
 C:\> java --version
-
-TODO
+java version "11.0.7" 2020-04-14 LTS
+Java(TM) SE Runtime Environment 18.9 (build 11.0.7+8-LTS)
+Java HotSpot(TM) 64-Bit Server VM 18.9 (build 11.0.7+8-LTS, mixed mode)
 
 C:\>
 ```
@@ -31,8 +32,7 @@ Check the compiler version, too, using the `javac` command. It's important that 
 
 ```text
 C:\> javac --version
-
-TODO
+javac 11.0.7
 
 C:\>
 ```
@@ -46,8 +46,8 @@ There are two circumstances that typically require you to adjust your `PATH` var
 
 ```text
 C:\> java --version
-
-TODO
+'java' is not a recognized internal or external command,
+operable program or batch file.
 
 C:\>
 ```
