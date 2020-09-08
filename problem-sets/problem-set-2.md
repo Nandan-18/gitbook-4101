@@ -22,7 +22,7 @@ After correcting the program, it should output six lines of text with the follow
 
 ## Deadline
 
-All submissions are due on Canvas by 11:59pm on Sunday, September 13, 2020.
+All submissions are due on Canvas by 11:59pm on Sunday, September 20, 2020.
 
 
 

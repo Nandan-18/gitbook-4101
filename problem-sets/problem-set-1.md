@@ -28,7 +28,7 @@ Your repository contents should match mine exactly.
 
 ## Deadline
 
-All submissions are due on Canvas by 11:59pm on Friday, September 11, 2020.
+All submissions are due on Canvas by 11:59pm on Sunday, September 13, 2020.
 
 
 
