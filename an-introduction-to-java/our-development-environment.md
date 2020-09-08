@@ -194,7 +194,7 @@ Use the following command to copy the contents of your public key. This assumes 
 Since I'm on a Mac and most of you are using Windows, there are a few differences in some of the commands. This is one of those uncommon occasions. Windows users should use this copy command.
 
 ```text
-$ clip < ~/.ssh/id_rsa.pub
+C:\> clip < ~/.ssh/id_rsa.pub
 ```
 
 #### Copying the Key to GitHub
