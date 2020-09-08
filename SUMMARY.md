@@ -66,11 +66,7 @@
 
 ## Tutorials
 
-* [Tutorial 0](tutorials/tutorial-0.md)
-
 ## Projects
-
-* [Project 0](projects/project-0.md)
 
 ## Resources <a id="helpful-links"></a>
 
