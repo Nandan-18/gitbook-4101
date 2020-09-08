@@ -28,9 +28,9 @@ It is available in PDF format, and can be downloaded on Canvas.
 
 I recommend you purchase one \(or all!\) of the following texts. They each provide practice tests, study guides, and helpful hints and tips for the AP exam.
 
-* 5 Steps to a 5: AP Computer Science A
-* Barron's AP Computer Science A
-* Cracking the AP Computer Science A Exam
+* _5 Steps to a 5: AP Computer Science A_
+* _Barron's AP Computer Science A_
+* _Cracking the AP Computer Science A Exam_
 
 Make sure you purchase the 2020-2021 versions of these books.
 
