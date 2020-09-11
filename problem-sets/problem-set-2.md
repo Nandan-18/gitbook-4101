@@ -6,7 +6,7 @@ We'll clone an existing repository, debug an a Java program so that it compiles 
 
 ## Requirements
 
-1. Clone the `java-skeleton-pset-2` repository.
+1. Clone the [`java-skeleton-pset-2`](https://github.com/ucvts/pset-2-skeleton-4101) repository.
 2. Create a new repository called `pset-2`.
 3. Update the remote connections to point at the newly created `pset-2` repository.
 4. Fix all compilation errors and bugs in the program.
