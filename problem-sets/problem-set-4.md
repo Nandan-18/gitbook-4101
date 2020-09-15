@@ -211,8 +211,8 @@ What's your favorite city? Los Angeles
 
 Text   : Los Angeles
 Length : 11
-Lower  : LOS ANGELES
-Upper  : los angeles
+Upper  : LOS ANGELES
+Lower  : los angeles
 ```
 
 ## Deliverables
