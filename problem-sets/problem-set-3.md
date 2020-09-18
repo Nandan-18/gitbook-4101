@@ -21,6 +21,7 @@ Print a square of text to the console.
 * Use a single `print`, `printf`, or `println` statement.
 * The use of the `String` concatenation operator is prohibited.
 * The use of any `String` methods is prohibited.
+* The use of `if` statements, `switch` statements, ternary operators, and loops is prohibited.
 
 ```text
 H E L L O
@@ -37,6 +38,7 @@ Print a simple message to the console.
 * Use a single `print`, `printf`, or `println` statement.
 * The use of the `String` concatenation operator is prohibited.
 * The use of any `String` methods is prohibited.
+* The use of `if` statements, `switch` statements, ternary operators, and loops is prohibited.
 
 ```text
 "The answer's quite simple," the professor said. "Just think outside the box!"
