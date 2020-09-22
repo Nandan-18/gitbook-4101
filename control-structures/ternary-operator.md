@@ -85,3 +85,5 @@ double bonusRate = role.equals("manager")
 
 Again, the expressions are rather short. The top-level ternary operator is broken out across three lines as detailed earlier. The nested ternary operators, provided they aren't too long, can go on a single line.
 
+{% page-ref page="../problem-sets/problem-set-5.md" %}
+
