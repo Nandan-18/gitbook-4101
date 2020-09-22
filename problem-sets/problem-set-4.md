@@ -2,7 +2,7 @@
 
 ## **Summary**
 
-Solve each exercise so that your output matches the expected output. Each exercise should be written in the `main` method of its own class. Follow a file naming convention of `ExericseX.java`, where `X` is 1 through 10, for each class file.
+Solve each exercise so that your output matches the expected output. Each exercise should be written in the `main` method of its own class. Follow a file naming convention of `ExerciseX.java`, where `X` is 1 through 10, for each class file.
 
 ## Requirements
 
