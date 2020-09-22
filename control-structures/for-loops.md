@@ -155,3 +155,5 @@ do {
 } while (!(x == 1) && !(x == 2));
 ```
 
+{% page-ref page="../problem-sets/problem-set-6.md" %}
+
