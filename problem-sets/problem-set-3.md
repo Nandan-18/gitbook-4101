@@ -213,7 +213,7 @@ Calculate and print the equivalent number of quarters, dimes, nickels, and penni
 * The use of `if` statements, `switch` statements, ternary operators, and loops is prohibited.
 
 ```text
-Amount   : 2.43
+Amount : 2.43
 
 Quarters : 9
 Dimes    : 1
@@ -236,8 +236,8 @@ Calculate and print the equivalent temperature in Celsius and Kelvin.
 ```text
 Fahrenheit : 32.0
 
-Celsius    : 0.00
-Kelvin     : 273.15
+Celsius : 0.00
+Kelvin  : 273.15
 ```
 
 ## Deliverables
