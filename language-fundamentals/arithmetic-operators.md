@@ -238,21 +238,23 @@ double decimalValue = (double) integerValue;
 
 ### Possible Dangers
 
-You need to be careful when casting, though. Since some data types cannot accommodate the same size or degree of precision, there is the potential for information loss. These are all safe conversions without the risk for any information loss.
+You need to be careful when casting, though. Since some data types cannot accommodate the same size or degree of precision, there is the potential for information loss. These are all safe conversions without the risk for any information loss. They are called widening conversions.
 
-* `byte` ⟶ `short`
-* `short` ⟶ `int`
-* `char` ⟶ `int`
-* `int` ⟶ `long`
-* `int` ⟶ `double`
+* `byte` ⟶ `short`, `int`, `long`, `float`, or `double`
+* `short` ⟶ `int`, `long`, `float`, or `double`
+* `char` ⟶ `int`, `long`, `float`, or `double`
+* `int` ⟶ `long`, `float`, or `double`
+* `long` ⟶ `float` or `double`
 * `float` ⟶ `double`
 
-These, however, are not. They carry the very real risk for information loss.
+These, however, are not. They carry the very real risk for information loss. They're called narrowing conversions.
 
-* `int` ⟶ `float`
-* `int` ⟶ `double`
-* `long` ⟶ `float`
-* `long` ⟶ `double`
+* `short` ⟶ `byte` or `char`
+* `char` ⟶ `byte` or `short`
+* `int` ⟶ `byte`, `short`, or `char`
+* `long` ⟶ `byte`, `short`, `char`, or `int`
+* `float` ⟶ `byte`, `short`, `char`, `int`, or `long`
+* `double` ⟶ `byte`, `short`, `char`, `int`, `long`, or `float`
 
 Go review the storage size and value ranges of the primitive data types if you're unsure why some casts are safe and some are unsafe.
 
