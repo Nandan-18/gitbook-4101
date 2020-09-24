@@ -186,7 +186,7 @@ Prompt the user to enter the number of students and teachers attending a class t
 * `Teachers :` 
 * `Capacity :` 
 
-Calculate and print the number of buses required, as well as the number of passengers on the last bus.
+Calculate and print the number of buses required, as well as the number of passengers on a potentially partially filled last bus. There should be an overflow value only if the last bus is partially filled. If all buses are filled to capacity, you should have an overflow value of `0`.
 
 * The use of the `Math` class is prohibited.
 * The use of `if` statements, `switch` statements, ternary operators, and loops is prohibited.
