@@ -14,7 +14,8 @@ We'll create our first IntelliJ project, initialize a Git repository, add and co
 6. Add the `.idea` folder, the `out` folder, and any `.iml` files to the `.gitignore` file.
 7. Add and commit your `src` folder and `.gitignore` file to version control.
 8. Create a remote repository on GitHub called `pset-1`.
-9. Push your commit to your remote repository.
+9. Mark your repository as private, and add me as a collaborator \(`ryanjwilson`\).
+10. Push your commit to your remote repository.
 
 ## Deliverables
 
