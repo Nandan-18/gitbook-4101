@@ -7,8 +7,9 @@ Solve each exercise so that your output matches the expected output. Each exerci
 ## Requirements
 
 1. Create a new repository called `pset-4`.
-2. Solve each of the exercises, placing each solution in its own file.
-3. Add, commit, and push your code to the `pset-4` repository.
+2. Mark your repository as private, and add me as a collaborator \(`ryanjwilson`\).
+3. Solve each of the exercises, placing each solution in its own file.
+4. Add, commit, and push your code to the `pset-4` repository.
 
 ## Exercises
 
