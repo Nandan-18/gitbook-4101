@@ -63,9 +63,9 @@ Inches : 3
 
 Prompt the user for the dimensions of a Cornhole board \(in inches\).
 
-* `Length       :` 
-* `Width        :` 
-* `Diameter     :` 
+* `Length   :` 
+* `Width    :` 
+* `Diameter :` 
 
 Calculate and print the surface area of the board \(in square inches\).
 
@@ -105,7 +105,7 @@ Centimeters : 3
 
 Prompt the user to enter a diameter of a circle.
 
-* `Diameter      :` 
+* `Diameter :` 
 
 Calculate the area and circumference of the circle.
 
@@ -124,8 +124,8 @@ Circumference : 31.42
 
 Prompt the user to enter a length and width of a rectangle.
 
-* Length:
-* Width:
+* `Length :` 
+* `Width  :` 
 
 Calculate and print the area, perimeter, and diagonal of the rectangle.
 
@@ -146,7 +146,7 @@ Diagonal  : 11.18
 
 Prompt the user to enter a side length of a hexagon.
 
-* `Side      :` 
+* `Side :` 
 
 Calculate and print the area and perimeter of the corresponding hexagon.
 
