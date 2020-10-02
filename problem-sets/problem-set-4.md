@@ -36,7 +36,7 @@ Calculate and print the wind chill.
 Temperature : 38
 Wind speed  : 14
 
-Wind chill  : 29.60
+Wind chill : 29.60
 ```
 
 ### Exercise 2
@@ -74,9 +74,9 @@ Calculate and print the surface area of the board \(in square inches\).
 * The use of `if` statements, `switch` statements, ternary operators, and loops is prohibited.
 
 ```text
-Length       : 48
-Width        : 24
-Diameter     : 6
+Length   : 48
+Width    : 24
+Diameter : 6
 
 Surface area : 1,123.73
 ```
@@ -114,7 +114,7 @@ Calculate the area and circumference of the circle.
 * The use of `if` statements, `switch` statements, ternary operators, and loops is prohibited.
 
 ```text
-Diameter      : 10
+Diameter : 10
 
 Area          : 78.54
 Circumference : 31.42
@@ -134,8 +134,8 @@ Calculate and print the area, perimeter, and diagonal of the rectangle.
 * The use of `if` statements, `switch` statements, ternary operators, and loops is prohibited.
 
 ```text
-Length    : 5
-Width     : 10
+Length : 5
+Width  : 10
 
 Area      : 50.00
 Perimeter : 30.00
@@ -155,7 +155,7 @@ Calculate and print the area and perimeter of the corresponding hexagon.
 * The use of `if` statements, `switch` statements, ternary operators, and loops is prohibited.
 
 ```text
-Side      : 5
+Side : 5
 
 Area      : 64.95
 Perimeter : 30.00
