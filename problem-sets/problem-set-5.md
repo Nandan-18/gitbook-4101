@@ -158,11 +158,14 @@ And there are 13 possible ranks.
 * `King`
 * `Ace`
 
-Possible inputs will be a combination of ranks and suits, where ranks are written as `2-9`, `T`, `J`, `Q`, `K`, or `A`, and suits are written as `C`, `D`, `H`, or `S`. There are three possible outputs.
+Possible inputs will be a combination of ranks and suits, where ranks are written as `2-9`, `T`, `J`, `Q`, `K`, or `A`, and suits are written as `C`, `D`, `H`, or `S`. There are four possible outputs.
 
 * `Rank of Suit.`
 * `That's not a valid suit.`
 * `That's not a valid rank.`
+* `That's not a valid card.`
+
+You should check the suit first, and print the associated error message \(and only that error message\) if applicable. Next, you should check the rank and print the error message associated with invalid ranks. Print that the card is invalid only if the length of the input is something other than two.
 
 Remember, capitalization and punctuation count!
 
