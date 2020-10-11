@@ -165,7 +165,7 @@ Possible inputs will be a combination of ranks and suits, where ranks are writte
 * `That's not a valid rank.`
 * `That's not a valid card.`
 
-You should check the suit first, and print the associated error message \(and only that error message\) if applicable. Next, you should check the rank and print the error message associated with invalid ranks. Print that the card is invalid only if the length of the input is something other than two.
+You should check that the input can be processed as a possible card first \(i.e., the input must be exactly two characters\). Next, you should check the rank, and print the associated error message \(and only that error message\) if applicable. Finally, you should check the suit and print the error message associated with invalid suits.
 
 Remember, capitalization and punctuation count!
 
