@@ -26,7 +26,7 @@ Prompt the user to enter two integers. The first is a lower bound, and the secon
 ```text
 Lower bound: 1
 Upper bound: -1
-Upper bound: 0
+Lower bound: 0
 Upper bound: 100
 
 2,550.
@@ -158,7 +158,7 @@ Prompt the user to enter an integer, and print a Super Mario-style full pyramid 
 ```text
 Height: 25
 Height: 0
-Height: 4
+Height: 7
 
       ##  ##
      ###  ###
