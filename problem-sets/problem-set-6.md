@@ -65,7 +65,7 @@ Enter an integer: 929409
 
 Prompt the user to enter a series of non-negative integers. When the user enters a negative integer, you can assume he or she is done entering values. Compute the average of the values entered.
 
-* Accept only positive values in the range of an `int`.
+* Accept only non-negative values in the range of an `int`.
 * Display exactly two decimal places.
 * Format the average with separating commas, as needed.
 
