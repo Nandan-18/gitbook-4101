@@ -54,12 +54,12 @@ Odd.
 
 Prompt the user to enter three integers, and determine their relative ordering. There are six possible outputs.
 
-* Strictly increasing., where each integer is greater than the previous one.
-* Increasing., where each integer is greater than or equal to the previous one.
-* Same., where all three integers are equal to one another.
-* Decreasing., where each integer is less than or equal to the previous one.
-* Strictly decreasing., where each integer is lass than the previous one.
-* Unordered., where none of the above applies.
+* `Strictly increasing.`, where each integer is greater than the previous one.
+* `Increasing.`, where each integer is greater than or equal to the previous one.
+* `Same.`, where all three integers are equal to one another.
+* `Decreasing.`, where each integer is less than or equal to the previous one.
+* `Strictly decreasing.`, where each integer is lass than the previous one.
+* `Unordered.`, where none of the above applies.
 
 Remember, capitalization and punctuation count!
 
