@@ -104,7 +104,7 @@ Given a string and a character, compute the number of words that end in `suffix`
 * `text` must not be `null`.
 * `suffix` must be a character in the English alphabet.
 
-Treat the `suffix` case-sensitively. A word is defined as a sequence of characters that starts and ends in a single space. The only exception to this is if the word is either the first or last word in the string. There will never be more than one consecutive space in the string, and no other whitespace characters will appear in the string.
+Treat the `suffix` case-insensitively. A word is defined as a sequence of characters that starts and ends in a single space. The only exception to this is if the word is either the first or last word in the string. There will never be more than one consecutive space in the string, and no other whitespace characters will appear in the string.
 
 Here are a few sample calls to the `countMe` method, along with their expected outputs. It is your responsibility to make sure your code works as expected for **all** possible inputs, not just these three.
 
