@@ -65,6 +65,7 @@
 * [Problem Set 4](problem-sets/problem-set-4.md)
 * [Problem Set 5](problem-sets/problem-set-5.md)
 * [Problem Set 6](problem-sets/problem-set-6.md)
+* [Problem Set 7](problem-sets/problem-set-7.md)
 
 ## Tutorials
 
