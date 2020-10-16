@@ -63,7 +63,12 @@ Enter an integer: 929409
 
 ### Exercise 4
 
-Prompt the user to enter a series of non-negative integers. When the user enters a negative integer, you can assume he or she is done entering values. Compute the average of the values entered.
+Prompt the user to enter a series of non-negative integers. When the user enters a negative integer, you can assume he or she is done entering values. Compute the average of the values entered. There are two possible outputs.
+
+* `#,###.##.`
+* `Error: division by zero.`
+
+It is unacceptable for your program to crash because you mistakenly divided by zero.
 
 * Accept only non-negative values in the range of an `int`.
 * Display exactly two decimal places.
