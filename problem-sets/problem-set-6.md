@@ -106,7 +106,7 @@ Prime.
 
 Prompt the user to enter a non-negative integer. If the integer the user enters is called `n`, determine the `n`th Fibonacci number.
 
-* Accept all non-negative integer values in the range `[0, 92]`, continuously re-prompting the user until this requirement is satisfied.
+* Accept all non-negative integer values in the range `[1, 92]`, continuously re-prompting the user until this requirement is satisfied.
 * Format the number with separating commas, as needed.
 
 ```text
