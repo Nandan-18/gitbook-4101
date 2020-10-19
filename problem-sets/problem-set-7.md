@@ -8,8 +8,9 @@ For this problem set, we'll be focusing on using built-in methods \(most notably
 
 1. Create a repository called `pset-7`.
 2. Mark your repository as private, and add me as a collaborator \(`ryanjwilson`\).
-3. Solve each of the exercises, placing each solution in the appropriate method.
-4. Add, commit, and push your code to your `pset-7` repository.
+3. Pull down [the skeleton repository](https://github.com/ucvts/pset-7-4101) containing starter code.
+4. Solve each of the exercises, placing each solution in the appropriate method.
+5. Add, commit, and push your code to your `pset-7` repository.
 
 ## Exercises
 
