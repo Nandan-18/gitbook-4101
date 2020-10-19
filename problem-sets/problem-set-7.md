@@ -16,7 +16,7 @@ For this problem set, we'll be focusing on using built-in methods \(most notably
 
 The specifications for each exercise are outlined below. Your job is to write code that meets the stated requirements, and matches my output exactly. Work through these exercises on your own. Experiment, make mistakes, ask questions, and fix your mistakes. It's the only way to get good at programming.
 
-Previously, your output was printed to the console. This time, though, you'll be using return statements. To clarify, nothing should be printed to the console. Correct answers that are printed to the console instead of returned will not be considered.
+Previously, your output was printed to the console. This time, though, you'll be using return statements. To clarify, nothing should be printed to the console and you don't need to use a `Scanner` at all. Correct answers that are printed to the console instead of returned will not be considered.
 
 As a final note, do not modify the method signatures. You can write your code inside of the method bodies, but the names, access modifiers, return types, and parameters must not be altered.
 
