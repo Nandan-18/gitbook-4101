@@ -24,9 +24,5 @@ Your job job is the implement the missing classes and methods so that the ATM cl
 
 Anything you're unable to glean from analyzing the `ATM` class, you'll need to turn to the public documentation. These Javadocs should look familiar if you've ever poked around the Oracle documentation for built-in Java classes.
 
-* [`BankAccount`](https://canvas.instructure.com/files/114102898/download?download_frd=1)`(open this file in a browser window)`
-* [`AccountOwner`](https://canvas.instructure.com/files/114102906/download?download_frd=1)`(open this file in a browser window)`
-* [`MailingAddress`](https://canvas.instructure.com/files/114102914/download?download_frd=1)`(open this file in a browser window)`
-
-Download these HTML files and open them up using the browser of your choosing.
+[Download this `.zip` folder](https://canvas.instructure.com/files/114106258/download?download_frd=1), extract it, and open up the HTML files using the browser of your choosing.
 
