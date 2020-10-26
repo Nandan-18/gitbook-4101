@@ -464,3 +464,5 @@ We've been dancing around this subject in a few sections already, and I can almo
 
 It's really important that you get in the habit of writing defensive code. That means checking that an object explicitly isn't `null` before trying to use it.
 
+{% page-ref page="../problem-sets/problem-set-8.md" %}
+
