@@ -26,3 +26,13 @@ Anything you're unable to glean from analyzing the `ATM` class, you'll need to t
 
 [Download this `.zip` folder](https://canvas.instructure.com/files/114106258/download?download_frd=1), extract it, and open up the HTML files using the browser of your choosing.
 
+## Deliverables
+
+1. Submit your repository URL.
+
+Your program output should match mine exactly for each of the exercises above. 
+
+## Deadline
+
+All submissions are due on Canvas by 11:59pm on Wednesday, November 4, 2020.
+
