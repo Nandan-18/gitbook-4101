@@ -26,6 +26,62 @@ Anything you're unable to glean from analyzing the `ATM` class, you'll need to t
 
 [Download this `.zip` folder](https://canvas.instructure.com/files/114106258/download?download_frd=1), extract it, and open up the HTML files using the browser of your choosing.
 
+## Extra Credit
+
+Build a command line interface that actually allows users to login to their account, perform transactions, and logout. It doesn't have to be fancy, but should have the minimum features. This will be worth an extra 25 points on top of the already 75-point assignment.
+
+### Login
+
+Prompt the user to enter an account number. You already have two existing accounts, but feel free to populate the pseudo-database with more. This menu should constantly prompt \(and re-prompt\) the user until a valid account number is received.
+
+```text
+Account No.: 
+```
+
+### Menu
+
+After successfully logging in, users should be presented with a simple menu. It should re-prompt the user if an option other than those presented is selected.
+
+```text
+[1] Deposit
+[2] Withdraw
+[3] Transfer
+[4] Quit
+
+::: 
+```
+
+#### Deposit
+
+If the user selects the deposit option, they'll need to specify how much money.
+
+```text
+Amount to deposit: 100.25
+```
+
+This should accept only positive numeric values, of course.
+
+#### Withdraw
+
+If the user selects the withdraw option, they'll need to specify how much money.
+
+```text
+Amount to withdraw: 250.50
+```
+
+Again, this should only accept positive numeric values, and the user will need to have enough money to support the transaction.
+
+#### Transfer
+
+If the user selects the transfer option, they'll need to specify how much money, as well as the destination account number.
+
+```text
+Destination: 12345678
+Amount to transfer: 500.75
+```
+
+The destination account number must exist, and the same rules should apply here as they do for both deposits and withdrawals.
+
 ## Deliverables
 
 1. Submit your repository URL.
