@@ -90,5 +90,5 @@ Your program output should match mine exactly for each of the exercises above.
 
 ## Deadline
 
-All submissions are due on Canvas by 11:59pm on Wednesday, November 4, 2020.
+All submissions are due on Canvas by 11:59pm on Sunday, November 8, 2020.
 
