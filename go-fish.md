@@ -543,7 +543,7 @@ The computer isn't a very good player. It keeps requesting the same `Card` over 
 
 1. Submit your repository URL.
 
-Your program output should match the tutorial exactly, plus the enhancements you've made.
+Follow the tutorial and implement a working Go Fish application. It should match mine in every way. From there, your code will diverge from that of the tutorial as you implement the two enhancements.
 
 ## Deadline
 
