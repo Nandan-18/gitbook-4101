@@ -547,5 +547,5 @@ Follow the tutorial and implement a working Go Fish application. It should match
 
 ## Deadline
 
-All submissions are due on Canvas by 11:59pm on Sunday, November 22, 2020.
+All submissions are due on Canvas by 11:59pm on Wednesday, November 25, 2020.
 
