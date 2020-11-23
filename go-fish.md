@@ -375,14 +375,33 @@ public class GoFish {
                 }
             }
 
-            // the games doesn't end until all 13 books are completed. the player with the
-            // most books at the end of the game wins.
+            // the games doesn't end until all 13 books are completed, or there are
+            // no more cards left in the deck. the player with the ,ost books at the
+            // end of the game wins.
 
-            if (player.getBooks().size() + computer.getBooks().size() == 13) {
+            int playerBooks = player.getBooks().size();
+            int computerBooks = computer.getBooks().size();
+
+            String winMessage = "Congratulations, you win! " + playerBooks + " books to " + computerBooks + ".";
+            String loseMessage = "Maybe next time. You lose " + computerBooks + " books to " + playerBooks + ".";
+            String tieMessage = "Looks like it's a tie, " + playerBooks + " to " + computerBooks + ".";
+
+            if (playerBooks + computerBooks == 13) {
                 if (player.getBooks().size() > computer.getBooks().size()) {
-                    System.out.println("\nCongratulations, you win!");
+                    System.out.println("\n" + winMessage);
                 } else {
-                    System.out.println("\nOh, better luck next time. This game goes to the computer...");
+                    System.out.println("\n" + loseMessage);
+                }
+                break;
+            } else if (deck.size() == 0) {
+                System.out.println("\nOh no, there are no more cards in the deck!");
+
+                if (playerBooks > computerBooks) {
+                    System.out.println(winMessage);
+                } else if (computerBooks > playerBooks) {
+                    System.out.println(loseMessage);
+                } else {
+                    System.out.println(tieMessage);
                 }
                 break;
             }
