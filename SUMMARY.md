@@ -76,6 +76,11 @@
 
 ## Projects
 
+---
+
+* [Blackjack](blackjack.md)
+* [Poker](poker.md)
+
 ## Resources <a id="helpful-links"></a>
 
 * [Peer Tutoring](helpful-links/peer-tutoring.md)
