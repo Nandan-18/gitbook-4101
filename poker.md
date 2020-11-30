@@ -2,7 +2,7 @@
 
 ## Summary
 
-Go Fish! was cool, but it's time to build some more complicated card games! There are two options here: [Blackjack](blackjack.md) or [Poker](poker.md). You can pick whichever game you'd like to implement.
+Go Fish! was cool, but it's time to build some more complicated card games!
 
 ## Requirements
 
