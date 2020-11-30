@@ -1,8 +1,8 @@
-# Poker
+# Blackjack
 
 ## Summary
 
-Follow along with the tutorial and get all of the basic functionality in place. Later, you'll have a chance to add your own flair to the game!
+Go Fish! was cool, but it's time to build some more complicated card games! There are two options here: [Blackjack](blackjack.md) or [Poker](poker.md). You can pick whichever game you'd like to implement.
 
 ## Requirements
 
@@ -13,7 +13,7 @@ Follow along with the tutorial and get all of the basic functionality in place. 
 
 ## Rules
 
-If you've never played Blackjack before, you might want to familiarize yourself with an online game or two before continuing this project. The game can get pretty complicated, even with the limited ruleset we'll be using.
+If you've never played before, it might be worthwhile to watch a video or two on the rules and objectives of the game.
 
 ### Ranks
 
