@@ -93,5 +93,5 @@ Your video demo must show the entirety of gameplay \(at least 5 consecutive hand
 
 ## Deadline
 
-All submissions are due on Canvas by 11:59pm on Sunday, December 20, 2020.
+All submissions are due on Canvas by 11:59pm on Wednesday, December 16, 2020.
 
