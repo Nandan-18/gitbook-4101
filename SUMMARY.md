@@ -78,8 +78,8 @@
 
 ---
 
-* [Blackjack](poker.md)
-* [Poker](blackjack.md)
+* [Blackjack](blackjack.md)
+* [Poker](poker.md)
 
 ## Resources <a id="helpful-links"></a>
 

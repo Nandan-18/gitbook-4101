@@ -1,4 +1,4 @@
-# Blackjack
+# Poker
 
 ## Summary
 
@@ -6,14 +6,14 @@ Go Fish! was cool, but it's time to build some more complicated card games!
 
 ## Requirements
 
-1. Create a repository called `blackjack`.
+1. Create a repository called `poker`.
 2. Mark your repository as private, and add me as a collaborator \(`ryanjwilson`\).
-3. Add, commit, and push your code to your `blackjack` repository.
+3. Add, commit, and push your code to your `poker` repository.
 4. Create a short video \(between 3 and 5 minutes\) demonstrating your game.
 
 ## Rules
 
-If you've never played before, it might be worthwhile to watch a video or two on the rules and objectives of the game.
+We're going to be playing a variation of poker called 5-card stud video poker. If you've never played before, it might be worthwhile to watch a video or two on the rules and objectives of the game.
 
 ### Ranks
 
@@ -46,17 +46,9 @@ Each playing card is also assigned one of four suits.
 
 If you're keeping track, that gives us 52 possible cards \(i.e., 13 x 4\).
 
-### Values
-
-The suit doesn't matter in Blackjack, but the rank matters very much. Each card is given a numeric value.
-
-* An `Ace` is worth either 1 point or 11 points, whichever is more beneficial to the player.
-* A face card \(a `Jack`, `Queen`, or `King`\) is worth 10 points.
-* Every other card is worth its rank \(e.g., a `Four` is worth 4 points\).
-
 ### Objective
 
-The objective of the game is the get as close to 21 points without going over.
+The objective of the game is to attain the best possible hand. We'll go over all of the possible hands and how they stack up against each other later.
 
 ### Wagers
 
@@ -66,32 +58,46 @@ At the beginning of each hand, a player must decide how many chips they'd like t
 
 ### Gameplay
 
-There will be one dealer \(computer\) and one player \(human\). Initially, each is dealt two cards \(face down, face up for the dealer; both face up for the player\).
+There is only a single, human player. That player is dealt 5 cards. Players are allowed to trade up to 3 cards to try to build their best possible hand.
 
-The player goes first. They are allowed to either hit or stand. When a player hits, they are asking for another card from the deck. The idea is to get closer to 21, but they also risk going over. When a player stands, they are accepting their hand and ending their turn.
+### Hands
 
-Next, it's the dealer's turn, at which point the initially face-down card should be turned face-up. The computer must abide by the following rules.
+There are many possible hands in poker that depend on the ranks and suits of your cards.
 
-* If the initial hand is 17 or more, the computer must stand.
-* if the initial hand is 16 or less, the computer must hit.
-* The computer must continue hitting until their hand is 17 or more.
+* A royal flush is when a player has Ten, Jack, Queen, King, Ace of the same suit.
+* A straight flush is when a player has five consecutive cards of the same suit.
+* Four-of-a-kind is when a player has all four cards of the same rank.
+* A full house is when a player has three of one rank and two of another.
+* A flush is when a player has five cards of the same suit.
+* A straight is when a player has five consecutive cards regardless of suit.
+* Three-of-a-kind is when a player has three cards of the same rank.
+* A two pair is when a player has two cards of one rank and two cards of another.
+* A pair is when a player has two cards of the same rank.
 
-### Winning
+### Payouts
 
-If a player is initially dealt exactly 21 \(e.g., an Ace and a King\) on their first two cards, this is called blackjack. The hand is over and the player automatically wins. They payout for this type of win is 3-to-2, meaning 3 chips paid for every 2 chips wagered.
+If a player has at least a pair of Jacks or better, they'll be paid out on the following scale.
 
-If, after a series of hits and stands, the player's hand is greater than the dealer's \(without exceeding 21\), the player wins and is paid out 1-to-1. This means 1 chip paid for every 1 chip wagered. A tie is called a push, and the player gets their wager back.
+* A royal flush is paid at 100x the player's wager.
+* A straight flush is paid at 50x the player's wager.
+* Four-of-a-kind is paid at 25x the player's wager.
+* A full house is paid at 15x the player's
+* A flush is paid at 10x the player's wager.
+* A straight is paid at 5x the player's wager.
+* Three-of-kind is paid at 3x the player's wager.
+* A two pair is paid at 2x the player's wager.
+* Pair of Jacks or better is paid at 1x the player's wager.
 
-If the dealer's hand is greater than the player's hand \(without exceeding 21 of course\) or the player's hand exceeds 21, the player loses the hand and their wagered chips.
+Higher cards are always better, meaning a pair of Aces is better than a pair of Kings, and so on. If a player has a pair of Jacks, they get paid out. However, a pair of Tens or below is considered a losing hand.
 
 ## Deliverables
 
 1. Submit your repository URL.
 2. Submit a video demo of your game \(between 3 and 5 minutes\).
 
-Your video demo must show the entirety of gameplay \(at least 5 consecutive hands\), including wagering, hitting, standing, and winning or losing.
+Your video demo must show the entirety of gameplay \(at least 5 consecutive hands\), including wagering, trading, and winning or losing.
 
 ## Deadline
 
-All submissions are due on Canvas by 11:59pm on Wednesday, December 16, 2020.
+All submissions are due on Canvas by 11:59pm on Sunday, January 10, 2021.
 
