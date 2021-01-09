@@ -13,7 +13,7 @@ Go Fish! was cool, but it's time to build some more complicated card games!
 
 ## Rules
 
-We're going to be playing a variation of poker called 5-card stud video poker. If you've never played before, it might be worthwhile to watch a video or two on the rules and objectives of the game.
+We're going to be playing a variation of poker video poker. If you've never played before, it might be worthwhile to watch a video or two on the rules and objectives of the game.
 
 ### Ranks
 
@@ -52,13 +52,22 @@ The objective of the game is to attain the best possible hand. We'll go over all
 
 ### Wagers
 
-Players must buy-in for certain number of chips. There is not dollar amount associated with a chip, and there's not limit \(aside from memory constraints\) to how many chips a player can buy-in for or possess.
+Players must buy-in for certain number of chips. There is no dollar amount associated with a chip, and there's no limit \(aside from memory constraints\) to how many chips a player can buy-in for or possess.
 
 At the beginning of each hand, a player must decide how many chips they'd like to wager. Player's must wager at least 1 chip, but no more than 25 chips.
 
 ### Gameplay
 
 There is only a single, human player. That player is dealt 5 cards. Players are allowed to trade up to 3 cards to try to build their best possible hand.
+
+Here's an example of what this gameplay might look like.
+
+1. The player wagers 5 chips.
+2. The player is dealt five cards: 3D, 3H, 7H, JC, KD.
+3. The player elects to trade three cards: 7H, JC, KD.
+4. The player is dealt three new cards: 3S, 9D, QH
+5. The player's final hand is: 3D, 3H, 3S, 9D, QH
+6. The player has three-of-a-kind, and is paid out accordingly.
 
 ### Hands
 
