@@ -90,6 +90,7 @@
 * [GitHub](https://github.com/ucvts)
 * [Java 11 Documentation](https://docs.oracle.com/en/java/javase/11/index.html)
 * [Course and Exam Description](https://apcentral.collegeboard.org/pdf/ap-computer-science-a-course-and-exam-description.pdf?course=ap-computer-science-a)
+* [Edhesive](https://intro.edhesive.com/courses/57223)
 
 ## Appendix <a id="helpful-resources"></a>
 
