@@ -2,85 +2,204 @@
 
 ## Summary
 
-Last time, we used built-in methods of the String class. For this problem set, our focus will be on implementing our own classes and methods. I've provided a simple `ATM` class, which demonstrates how a user might perform simple online banking actions. Your job is to implement the missing classes and methods. You cannot change `ATM` class in any way.
+For this problem set, we'll be focusing on using built-in methods \(most notably, those of the `String` class\). It is also your first introduction to methods, parameters, and return statements. Each method, including the `main` method, is declared for you. It is your responsibility to implement each method, and test it thoroughly. 
 
 ## Requirements
 
 1. Create a repository called `pset-8`.
 2. Mark your repository as private, and add me as a collaborator \(`ryanjwilson`\).
 3. Pull down [the skeleton repository](https://github.com/ucvts/pset-8-4101) containing starter code.
-4. Implementing the missing classes and methods.
+4. Solve each of the exercises, placing each solution in the appropriate method.
 5. Add, commit, and push your code to your `pset-8` repository.
 
-## Analyzing the Starter Code
+## Exercises
 
-The only starter code you're getting is the `ATM` class. It's designed to simulate someone using an ATM \(hopefully we've all got a rough understanding of how this works\).
+The specifications for each exercise are outlined below. Your job is to write code that meets the stated requirements, and matches my output exactly. Work through these exercises on your own. Experiment, make mistakes, ask questions, and fix your mistakes. It's the only way to get good at programming.
 
-If you read carefully, you'll come across references and methods that aren't defined in the ATM class. Even if you don't read carefully, they should be glaringly obvious because the code won't compile with all of these unknown references.
+Previously, your output was printed to the console. This time, though, you'll be using return statements. To clarify, nothing should be printed to the console and you don't need to use a `Scanner` at all. Correct answers that are printed to the console instead of returned will not be considered.
 
-Your job job is the implement the missing classes and methods so that the ATM class compiles and runs as expected. You are writing your code to fit my specifications, which means you cannot modify the `ATM` class in any way whatsoever.
+As a final note, do not modify the method signatures. You can write your code inside of the method bodies, but the names, access modifiers, return types, and parameters must not be altered.
 
-## Reading the Documentation
+### Exercise 1
 
-Anything you're unable to glean from analyzing the `ATM` class, you'll need to turn to the public documentation. These Javadocs should look familiar if you've ever poked around the Oracle documentation for built-in Java classes.
+Given two arrays of integers called `a` and `b`, return `true` if both arrays have either the same first or same last element. Otherwise, return `false`. You should also return `false` if any of the following conditions is not met.
 
-[Download this `.zip` folder](https://canvas.instructure.com/files/114106258/download?download_frd=1), extract it, and open up the HTML files using the browser of your choosing.
+* `a` must not be `null`.
+* `b` must not be `null`.
+* `a` must not be empty.
+* `b` must not be empty.
 
-## Extra Credit
+Here are a few sample calls to the `common` method, along with their expected outputs. It is your responsibility to make sure your code works as expected for **all** possible inputs, not just these three.
 
-Build a command line interface that actually allows users to login to their account, perform transactions, and logout. It doesn't have to be fancy, but should have the minimum features. This will be worth an extra 25 points on top of the already 75-point assignment.
-
-### Login
-
-Prompt the user to enter an account number. You already have two existing accounts, but feel free to populate the pseudo-database with more. This menu should constantly prompt \(and re-prompt\) the user until a valid account number is received.
-
-```text
-Account No.: 
+```java
+common([1, 2, 3], [7, 3])    → true
+common([1, 2, 3], [7, 3, 2]) → false
+common([1, 2, 3], [1, 3])    → true
 ```
 
-### Menu
+Remember, your code will need to handle atypical cases, too. `null` values and empty arrays are all valid inputs. Nothing is off the table.
 
-After successfully logging in, users should be presented with a simple menu. It should re-prompt the user if an option other than those presented is selected.
+### Exercise 2
 
-```text
-[1] Deposit
-[2] Withdraw
-[3] Transfer
-[4] Quit
+Given two arrays of integers called `a` and `b`, return a new array containing the middle elements from `a` and `b` \(in that order\). Return `null` if any of the following conditions is not met.
 
-::: 
+* `a` must not be `null`.
+* `b` must not be `null`.
+* `a` must not be empty.
+* `b` must not be empty.
+* `a` must have an odd length.
+* `b` must have an odd length.
+
+Here are a few sample calls to the `middleMan` method, along with their expected outputs. It is your responsibility to make sure your code works as expected for **all** possible inputs, not just these three.
+
+```java
+middleMan([1, 2, 3, 4, 5], [4, 5, 6]) → [3, 5]
+middleMan([7, 7, 7], [3, 3, 3])       → [7, 3]
+middleMan([9, 8, 7], [6, 5, 4, 3, 2]) → [8, 4]
 ```
 
-#### Deposit
+Remember, your code will need to handle atypical cases, too. `null` values and empty arrays are all valid inputs. Nothing is off the table.
 
-If the user selects the deposit option, they'll need to specify how much money.
+### Exercise 3
 
-```text
-Amount to deposit: 100.25
+Given two arrays of integers called `a` and `b`, return the array whose elements produce the larger sum. Empty arrays will be considered to have a sum of zero. Return `a` in the event of a tie. Return `null` if any of the following conditions is not met.
+
+* `a` must not be `null`.
+* `b` must not be `null`.
+
+Here are a few sample calls to the `bigger` method, along with their expected outputs. It is your responsibility to make sure your code works as expected for **all** possible inputs, not just these four.
+
+```java
+bigger([1, 2], [3, 4])       → [3, 4]
+bigger([3, 4], [1, 2])       → [3, 4]
+bigger([1, 1, 3], [1, 2, 2]) → [1, 1, 3]
+bigger([], [1])              → [1]
 ```
 
-This should accept only positive numeric values, of course.
+Remember, your code will need to handle atypical cases, too. `null` values and empty arrays are all valid inputs. Nothing is off the table.
 
-#### Withdraw
+### Exercise 4
 
-If the user selects the withdraw option, they'll need to specify how much money.
+Given two arrays of integers called `a` and `b`, return a new array containing the two middle elements from `a` and `b` \(in that order\). Return `null` if any of the following conditions is not met.
 
-```text
-Amount to withdraw: 250.50
+* `a` must not be `null`.
+* `b` must not be `null`.
+* `a` must not be empty.
+* `b` must not be empty.
+* `a` must have an even length.
+* `b` must have an even length.
+
+Here are a few sample calls to the `doubleMiddle` method, along with their expected outputs. It is your responsibility to make sure your code works as expected for **all** possible inputs, not just these three.
+
+```java
+doubleMiddle([1, 2, 3, 4], [1, 2])             → [2, 3, 1, 2]
+doubleMiddle([7, 1, 2, 3, 4, 9], [2, 4, 6, 8]) → [2, 3, 4, 6]
+doubleMiddle([1, 2], [3, 4])                   → [1, 2, 3, 4]
 ```
 
-Again, this should only accept positive numeric values, and the user will need to have enough money to support the transaction.
+Remember, your code will need to handle atypical cases, too. `null` values and empty arrays are all valid inputs. Nothing is off the table.
 
-#### Transfer
+### Exercise 5
 
-If the user selects the transfer option, they'll need to specify how much money, as well as the destination account number.
+Given an array of integers called `a`, swap the first and last elements of the array. Return the modified array. Return `null` if any of the following conditions is not met.
 
-```text
-Destination: 12345678
-Amount to transfer: 500.75
+* `a` must not be `null`.
+
+Here are a few sample calls to the `swapMe` method, along with their expected outputs. It is your responsibility to make sure your code works as expected for **all** possible inputs, not just these three.
+
+```java
+swapMe([1, 2, 3, 4])    → [4, 2, 3, 1]
+swapMe([1, 2, 3])       → [3, 2, 1]
+swapMe([8, 6, 7, 9, 5]) → [5, 6, 7, 9, 8]
 ```
 
-The destination account number must exist, and the same rules should apply here as they do for both deposits and withdrawals.
+Remember, your code will need to handle atypical cases, too. `null` values and empty arrays are all valid inputs. Nothing is off the table.
+
+### Exercise 6
+
+Given an array of integers called `a`, return a new array containing the first, middle, and last element \(in that order\). Return `null` if any of the following conditions is not met.
+
+* `a` must not be `null`.
+* `a` must not be empty.
+* `a` must have an odd length.
+
+Here are a few sample calls to the `threeProng` method, along with their expected outputs. It is your responsibility to make sure your code works as expected for **all** possible inputs, not just these three.
+
+```java
+threeProng([1, 2, 3, 4, 5])       → [1, 3, 5]
+threeProng([1, 2, 3])             → [1, 2, 3]
+threeProng([1, 2, 3, 4, 5, 6, 7]) → [1, 4, 7]
+```
+
+Remember, your code will need to handle atypical cases, too. `null` values and empty strings are all valid inputs. Nothing is off the table.
+
+### Exercise 7
+
+Given an array of integers called `a`, return the largest element in the array. Return `-1` if any of the following conditions is not met.
+
+* `a` must not be `null`.
+* `a` must not be empty.
+* `a` must contain only non-negative values.
+
+Here are a few sample calls to the `headHoncho` method, along with their expected outputs. It is your responsibility to make sure your code works as expected for **all** possible inputs, not just these two.
+
+```java
+headHoncho([1, 2, 3, 4, 5]) → 5
+headHoncho([9, 8, 7, 6, 5]) → 9
+```
+
+Remember, your code will need to handle atypical cases, too. `null` values and empty arrays are all valid inputs. Nothing is off the table.
+
+### Exercise 8
+
+Given an array of integers called `a` and an integer called `threshold`, return `true` if the sum of the elements in `a` exceeds the value of `threshold`. Otherwise, return `false`. Return `false` if any of the following conditions is not met.
+
+* `a` must not be `null`.
+
+Here are a few sample calls to the `tippingPoint` method, along with their expected outputs. It is your responsibility to make sure your code works as expected for **all** possible inputs, not just these two.
+
+```java
+tippingPoint([1, 2, 3, 4, 5], 10) → true
+tippingPoint([1, 2, 3], 20)       → false
+```
+
+Remember, your code will need to handle atypical cases, too. `null` values and empty arrays are all valid inputs. Nothing is off the table.
+
+### Exercise 9
+
+Given an array of integers called `a`, return `LEFT` if the sum of elements on the left half of `a` exceeds the sum of the elements on the right half. Otherwise, return `RIGHT`. Return `null` if any of the following conditions is not met.
+
+* `a` must not be `null`.
+* `a` must not be empty.
+* `a` must have an even length.
+
+Here are a few sample calls to the `halfway` method, along with their expected outputs. It is your responsibility to make sure your code works as expected for **all** possible inputs, not just these three.
+
+```java
+halfway([1, 2, 2, 1]) → "RIGHT"
+halfway([2, 1])       → "LEFT"
+halfway([4, 5, 9, 1]) → "LEFT"
+```
+
+Remember, your code will need to handle atypical cases, too. `null` values and empty arrays are all valid inputs. Nothing is off the table.
+
+### Exercise 10
+
+Given two arrays of integers called `a` and `b`, return a new array of as many of the elements from a followed by as many of the elements of b that will fit in a 3-element array. Return `null` if any of the following conditions is not met.
+
+* `a` must not be `null`.
+* `b` must not be `null`.
+* `a` and `b` must have a minimum of 3 combined elements.
+
+Here are a few sample calls to the `sequential` method, along with their expected outputs. It is your responsibility to make sure your code works as expected for **all** possible inputs, not just these three.
+
+```java
+sequential([1, 2], [3])    → [1, 2, 3]
+sequential([2], [3, 4])    → [2, 3, 4]
+sequential([5, 6], [7, 8]) → [5, 6, 7]
+```
+
+Remember, your code will need to handle atypical cases, too. `null` values and empty strings are all valid inputs. Nothing is off the table.
 
 ## Deliverables
 
@@ -90,5 +209,5 @@ Your program output should match mine exactly for each of the exercises above.
 
 ## Deadline
 
-All submissions are due on Canvas by 11:59pm on Sunday, November 8, 2020.
+All submissions are due on Canvas by 11:59pm on Sunday, January 24, 2021.
 

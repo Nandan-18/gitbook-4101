@@ -78,6 +78,7 @@
 
 ---
 
+* [ATM](atm.md)
 * [Blackjack](blackjack.md)
 * [Poker](poker.md)
 
