@@ -38,14 +38,14 @@
 * [Implementing Methods](objects-and-classes/implementing-methods.md)
 * [Static Members](objects-and-classes/static-members.md)
 
-## Data Structures & Recursion <a id="basic-data-structures"></a>
+## Data Structures & Recursion
 
-* [Arrays, Revisited](basic-data-structures/arrays-revisited.md)
-* [2D Arrays](basic-data-structures/2d-arrays.md)
-* [ArrayLists](basic-data-structures/arraylists.md)
-* [Searching](basic-data-structures/searching.md)
-* [Sorting](basic-data-structures/sorting.md)
-* [Recursion](basic-data-structures/recursion.md)
+* [Arrays, Revisited](data-structures-and-recursion/arrays-revisited.md)
+* [2D Arrays](data-structures-and-recursion/2d-arrays.md)
+* [ArrayLists](data-structures-and-recursion/arraylists.md)
+* [Searching](data-structures-and-recursion/searching.md)
+* [Sorting](data-structures-and-recursion/sorting.md)
+* [Recursion](data-structures-and-recursion/recursion.md)
 
 ## Inheritance & Interfaces
 
