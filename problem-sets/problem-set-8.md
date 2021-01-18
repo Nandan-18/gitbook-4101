@@ -178,7 +178,7 @@ Here are a few sample calls to the `halfway` method, along with their expected o
 ```java
 halfway([1, 2, 2, 1]) → "RIGHT"
 halfway([2, 1])       → "LEFT"
-halfway([4, 5, 9, 1]) → "LEFT"
+halfway([4, 5, 9, 1]) → "RIGHT"
 ```
 
 Remember, your code will need to handle atypical cases, too. `null` values and empty arrays are all valid inputs. Nothing is off the table.
