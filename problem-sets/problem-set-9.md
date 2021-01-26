@@ -105,7 +105,7 @@ Given two arrays called `a` and `b`, consider corresponding pairs elements in `a
 * `b` must not be `null`.
 * `a` and `b` must have the same length.
 
-Here are a few sample calls to the `threeProng` method, along with their expected outputs. It is your responsibility to make sure your code works as expected for **all** possible inputs, not just these three.
+Here are a few sample calls to the `pairs` method, along with their expected outputs. It is your responsibility to make sure your code works as expected for **all** possible inputs, not just these three.
 
 ```java
 pairs([1, 2, 3], [2, 3, 9]) → 2
