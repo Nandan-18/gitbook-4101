@@ -131,7 +131,7 @@ threeProng([1, 2, 3])             → [1, 2, 3]
 threeProng([1, 2, 3, 4, 5, 6, 7]) → [1, 4, 7]
 ```
 
-Remember, your code will need to handle atypical cases, too. `null` values and empty strings are all valid inputs. Nothing is off the table.
+Remember, your code will need to handle atypical cases, too. `null` values and empty arrays are all valid inputs. Nothing is off the table.
 
 ### Exercise 7
 
@@ -199,7 +199,7 @@ sequential([2], [3, 4])    → [2, 3, 4]
 sequential([5, 6], [7, 8]) → [5, 6, 7]
 ```
 
-Remember, your code will need to handle atypical cases, too. `null` values and empty strings are all valid inputs. Nothing is off the table.
+Remember, your code will need to handle atypical cases, too. `null` values and empty arrays are all valid inputs. Nothing is off the table.
 
 ## Deliverables
 
