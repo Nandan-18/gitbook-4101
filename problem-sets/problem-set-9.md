@@ -157,9 +157,9 @@ The _centered average_ is the average of all elements in an array, with the exce
 Here are a few sample calls to the `centeredAverage` method, along with their expected outputs. It is your responsibility to make sure your code works as expected for **all** possible inputs, not just these three.
 
 ```java
-centeredAverage([1, 2, 3, 4, 100]) → 3
-halfway([1, 1, 5, 5, 10, 8, 7])    → 5
-halfway([-10, -4, -2, -4, -2, 0])  → -3
+centeredAverage([1, 2, 3, 4, 100])        → 3
+centeredAverage([1, 1, 5, 5, 10, 8, 7])   → 5
+centeredAverage([-10, -4, -2, -4, -2, 0]) → -3
 ```
 
 Remember, your code will need to handle atypical cases, too. `null` values and empty arrays are all valid inputs. Nothing is off the table.
