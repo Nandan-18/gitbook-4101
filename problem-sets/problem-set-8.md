@@ -2,7 +2,7 @@
 
 ## Summary
 
-For this problem set, we'll be focusing on using built-in methods \(most notably, those of the `String` class\). It is also your first introduction to methods, parameters, and return statements. Each method, including the `main` method, is declared for you. It is your responsibility to implement each method, and test it thoroughly. 
+For this problem set, we'll be focusing on using another built-in data type: arrays! Each method, with the exception of the `main` method, is declared for you. It is your responsibility to implement each method, and test it thoroughly. 
 
 ## Requirements
 
