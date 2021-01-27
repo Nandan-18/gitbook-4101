@@ -109,7 +109,7 @@ Here are a few sample calls to the `pairs` method, along with their expected out
 
 ```java
 pairs([1, 2, 3], [2, 3, 9]) → 2
-pairs([1, 2, 3], [2, 3, 5]) → 5
+pairs([1, 2, 3], [2, 3, 5]) → 3
 pairs([1, 2, 3], [1, 2, 3]) → 0
 ```
 
