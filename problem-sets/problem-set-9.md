@@ -76,7 +76,7 @@ Here are a few sample calls to the `fillIn` method, along with their expected ou
 
 ```java
 fillIn(5, 10) → [5, 6, 7, 8, 9]
-fillIn([1, 2) → [1]
+fillIn(1, 2) → [1]
 fillIn(1, 1)  → []
 ```
 
