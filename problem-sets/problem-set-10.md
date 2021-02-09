@@ -50,7 +50,7 @@ maxSpan([1, 4, 2, 1, 4, 4, 4]) → 6
 
 ### Exercise 3
 
-Return an array that contains exactly the same numbers as the given array, but rearranged so that every `3` is immediately followed by a `4`. You are permitted to move every number, except the `3`s. The array contains the same number of 3's and 4's, every 3 has a number after it that is not a 3, and a 3 appears in the array before any 4. Return `null` if any of the following conditions is not met.
+Return an array that contains exactly the same numbers as the given array, but rearranged so that every `3` is immediately followed by a `4`. You are permitted to move every number, except the `3`s. Return `null` if any of the following conditions is not met.
 
 * The array must not be `null`.
 * There must be an equal number of `3`s and `4`s in the array.
@@ -114,7 +114,7 @@ linearIn([1, 2, 4, 4, 6], [2, 4]) → true
 
 ### Exercise 7
 
-Given an integer, `n`, create an array whose length is `n * n` with the following pattern \(shown here for `n = 3`\): `{ 0, 0, 1,     0, 2, 1,     3, 2, 1 }` \(spaces added to emphasize the three groups\). Return `null` if any of the following conditions is not met.
+Given an integer, `n`, create an array whose length is `n * n` with the following pattern \(shown here for `n = 3`\): `[0, 0, 1,     0, 2, 1,     3, 2, 1]` \(spaces added to emphasize the three groups\). Return `null` if any of the following conditions is not met.
 
 * `n` must be greater than or equal to `0`.
 
@@ -128,7 +128,7 @@ squareUp(4) → [0, 0, 0, 1, 0, 0, 2, 1, 0, 3, 2, 1, 4, 3, 2, 1]
 
 ### Exercise 8
 
-Given an integer, `n`, create an array with the following pattern:`{ 1,     1, 2,     1, 2, 3,     ...     1, 2, 3, ...n }` \(spaces added to emphasize the grouping\). The length of the array will be `1 + 2 + 3 + ... + n`. Return null if any of the following conditions is not met.
+Given an integer, `n`, create an array with the following pattern: `[1,     1, 2,     1, 2, 3,     ...     1, 2, 3, ...n]` \(spaces added to emphasize the grouping\). The length of the array will be `1 + 2 + 3 + ... + n`. Return `null` if any of the following conditions is not met.
 
 * `n` must be greater than or equal to `0`.
 
@@ -142,7 +142,7 @@ seriesUp(2) → [1, 1, 2]
 
 ### Exercise 9
 
-A _mirror_ section in an array is a group of contiguous elements such that somewhere in the array, the same group appears in reverse order. For example, the largest mirror section in `{ 1, 2, 3, 8, 9, 3, 2, 1 }` has a length of `3` \(i.e., the `{ 1, 2, 3 }` segment\). Return the size of the largest mirror section found in the given array. Return -1 if any of the following conditions is not met.
+A _mirror_ section in an array is a group of contiguous elements such that somewhere in the array, the same group appears in reverse order. For example, the largest mirror section in `[1, 2, 3, 8, 9, 3, 2, 1]` has a length of `3` \(i.e., the `[1, 2, 3]` segment\). Return the size of the largest mirror section found in the given array. Return `-1` if any of the following conditions is not met.
 
 * The array must not be `null`.
 
@@ -156,7 +156,7 @@ maxMirror([7, 1, 2, 9, 7, 2, 1])    → 2
 
 ### Exercise 10
 
-A _clump_ in an array is a series of two or more adjacent elements of the same value. Return the number of _clumps_ in the given array. Return -1 if any of the following conditions is not met.
+A _clump_ in an array is a series of two or more adjacent elements of the same value. Return the number of _clumps_ in the given array. Return `-1` if any of the following conditions is not met.
 
 * The array must not be `null`.
 
