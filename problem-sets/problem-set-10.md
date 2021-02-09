@@ -8,7 +8,7 @@ For this problem set, we'll be focusing on using another built-in data type: arr
 
 1. Create a repository called `pset-10`.
 2. Mark your repository as private, and add me as a collaborator \(`ryanjwilson`\).
-3. Pull down the skeleton repository containing starter code.
+3. Pull down [the skeleton repository](https://github.com/ucvts/pset-10-4101) containing starter code.
 4. Solve each of the exercises, placing each solution in the appropriate method.
 5. Add, commit, and push your code to your `pset-10` repository.
 
