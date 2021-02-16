@@ -55,7 +55,7 @@ Return an array that contains exactly the same numbers as the given array, but r
 * The array must not be `null`.
 * There must be an equal number of `3`s and `4`s in the array.
 * At least one `3` must appear in the array before the first `4`.
-* Every `3` has a number after it that is not a `4`.
+* Every `3` has a number after it that is not a `3`.
 
 Here are a few sample calls to the `fix34` method, along with their expected outputs. It is your responsibility to make sure your code works as expected for **all** possible inputs, not just these three.
 
