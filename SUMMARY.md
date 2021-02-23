@@ -70,6 +70,7 @@
 * [Problem Set 9](problem-sets/problem-set-9.md)
 * [Problem Set 10](problem-sets/problem-set-10.md)
 * [Problem Set 11](problem-sets/problem-set-11.md)
+* [Problem Set 12](problem-sets/problem-set-12.md)
 
 ## Tutorials
 
