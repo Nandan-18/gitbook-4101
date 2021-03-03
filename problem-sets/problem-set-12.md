@@ -180,5 +180,5 @@ Your program output should meet each of the requirements, and should account for
 
 ## Deadline
 
-All submissions are due on Canvas by 11:59pm on Sunday, March7, 2021.
+All submissions are due on Canvas by 11:59pm on Sunday, March 7, 2021.
 
