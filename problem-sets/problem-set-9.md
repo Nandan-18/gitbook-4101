@@ -166,7 +166,7 @@ Remember, your code will need to handle atypical cases, too. `null` values and e
 
 ### Exercise 10
 
-Given an array called `arr`, return the difference between the largest and smallest values in the array. Return -1 if any of the following conditions is not met.
+Given an array called `arr`, return the difference between the largest and smallest values in the array. Return `-1` if any of the following conditions is not met.
 
 * `arr` must not be `null`.
 * `arr` must have a length of at least 1.
