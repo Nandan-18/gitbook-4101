@@ -72,8 +72,6 @@
 * [Problem Set 11](problem-sets/problem-set-11.md)
 * [Problem Set 12](problem-sets/problem-set-12.md)
 * [Problem Set 13](problem-sets/problem-set-13.md)
-* [Problem Set 14](problem-sets/problem-set-14.md)
-* [Problem Set 15](problem-sets/problem-set-15.md)
 
 ## Tutorials
 
