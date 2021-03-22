@@ -86,6 +86,7 @@
 * [ATM](atm.md)
 * [Blackjack](blackjack.md)
 * [Poker](poker.md)
+* [Queen Industries](queen-industries.md)
 
 ## Resources <a id="helpful-links"></a>
 
