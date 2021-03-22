@@ -8,7 +8,7 @@ We've tackled quite a few problem sets. It's time to shake things up a bit. I've
 
 1. Create a repository called `queen-industries`.
 2. Mark your repository as private, and add me as a collaborator \(`ryanjwilson`\).
-3. Pull down the skeleton repository containing starter code.
+3. Pull down [the skeleton repository](https://github.com/ucvts/queen-industries-4101) containing starter code.
 4. Implementing the missing classes and methods, making appropriate use of inheritance, polymorphism, and interfaces where applicable.
 5. Add, commit, and push your code to your `queen-industries` repository.
 
